@@ -1,70 +1,104 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Chesem Chanel</title>
+  <title>Chesem Chanel | Developer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      color: #333;
+    }
 
-<style>
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #667eea, #764ba2);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 40px 20px;
+    }
 
-.card {
-    background: white;
-    padding: 30px;
-    border-radius: 20px;
-    text-align: center;
-    box-shadow: 0 15px 40px rgba(0,0,0,0.2);
-    animation: fadeIn 1.5s ease-in-out;
-}
+    .card {
+      background: white;
+      padding: 40px;
+      border-radius: 15px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+      text-align: center;
+    }
 
-h1 {
-    color: #333;
-}
+    h1 {
+      margin-bottom: 10px;
+    }
 
-.skills {
-    margin-top: 15px;
-}
+    .skills span {
+      display: inline-block;
+      margin: 8px;
+      padding: 8px 15px;
+      border-radius: 20px;
+      color: white;
+      font-size: 14px;
+    }
 
-.skills span {
-    display: inline-block;
-    padding: 8px 15px;
-    margin: 5px;
-    border-radius: 20px;
-    color: white;
-    font-size: 14px;
-}
+    .html { background: #e44d26; }
+    .js { background: #f7df1e; color: black; }
+    .python { background: #306998; }
 
-.skills span:nth-child(1) { background: #e34c26; }
-.skills span:nth-child(2) { background: #f7df1e; color: black; }
-.skills span:nth-child(3) { background: #306998; }
+    .section {
+      margin-top: 40px;
+    }
 
-@keyframes fadeIn {
-    from { opacity: 0; transform: translateY(20px); }
-    to { opacity: 1; transform: translateY(0); }
-}
-</style>
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background: #667eea;
+      color: white;
+      text-decoration: none;
+      border-radius: 25px;
+      transition: 0.3s;
+    }
 
+    .btn:hover {
+      background: #5a67d8;
+      transform: scale(1.05);
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      color: white;
+      font-size: 14px;
+    }
+  </style>
 </head>
+
 <body>
 
-<div class="card">
-<h1>Hello, I'm Chesem Chanel 👋</h1>
-<p>I am studying programming.</p>
+  <div class="container">
+    <div class="card">
+      <h1>Hello, I'm Chesem Chanel 👋</h1>
+      <p>💻 Programming Student & Future Software Developer</p>
 
-<div class="skills">
-<span>HTML</span>
-<span>JavaScript</span>
-<span>Python</span>
-</div>
+      <div class="section">
+        <h2>About Me</h2>
+        <p>I love building things with code. I'm passionate about learning HTML, JavaScript, and Python. I also enjoy gaming 🎮 and exploring new tech.</p>
+      </div>
 
-<p style="margin-top:20px;">🎮 I love gaming</p>
-</div>
+      <div class="section skills">
+        <h2>My Skills</h2>
+        <span class="html">HTML</span>
+        <span class="js">JavaScript</span>
+        <span class="python">Python</span>
+      </div>
+
+      <a href="#" class="btn">View My Projects</a>
+
+    </div>
+
+    <footer>
+      © 2026 Chesem Chanel | Built with ❤️
+    </footer>
+
+  </div>
 
 </body>
 </html>
