@@ -1,14 +1,65 @@
- HTML
+
+HTML
 Copy code
 <!DOCTYPE html>
 <html>
 <head>
     <title>Chesem Chanel</title>
+    <style>
+        body {
+            background-color: #f4f6f9;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+
+        .card {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            width: 300px;
+            margin: auto;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            color: #2c3e50;
+        }
+
+        p {
+            color: #555;
+        }
+
+        .skills {
+            margin-top: 15px;
+        }
+
+        .skills span {
+            background: #3498db;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 20px;
+            margin: 5px;
+            display: inline-block;
+            font-size: 14px;
+        }
+    </style>
 </head>
+
 <body>
-    <h1>Hello, I'm Chesem Chanel 👋</h1>
-    <p>I love HTML, JavaScript and Python.</p>
-    <p>I am studying programming.</p>
-    <p>I love gaming 🎮</p>
+
+    <div class="card">
+        <h1>Hello, I'm Chesem Chanel 👋</h1>
+        <p>I am studying programming.</p>
+
+        <div class="skills">
+            <span>HTML</span>
+            <span>JavaScript</span>
+            <span>Python</span>
+        </div>
+
+        <p style="margin-top:20px;">🎮 I love gaming</p>
+    </div>
+
 </body>
-</html> 
+</html>
